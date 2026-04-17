@@ -1,0 +1,40 @@
+# 환경 변수 (API 키 포함 - 절대 커밋 금지)
+.env
+
+# 가상환경
+.venv/
+
+# Python 캐시
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# 패키지 빌드 아티팩트
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE / 에디터
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.checkpoints/
+*.ipynb_checkpoints/
+
+# 운영체제
+.DS_Store
+Thumbs.db
+
+# 로그
+*.log
+
+# 테스트 / 커버리지
+.pytest_cache/
+.coverage
+htmlcov/
